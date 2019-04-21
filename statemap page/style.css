@@ -1,0 +1,127 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  outline: 0%;
+  clear: both;
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.titlepane{
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  display: inline-block;
+  min-width: 100%;
+  min-height: 80%;
+  max-width: 100%;
+  max-height: 100%;
+  background: linear-gradient(to right, #E27D60 50%, #ffb84d 50%);
+  border-collapse: collapse;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  border-bottom: 5px;
+  border-bottom-color: black;
+
+}
+.titlebox {
+  width: 1000px;
+  padding: 50px;
+  border: 5px solid lightblue;
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  background-color: lightblue;
+}
+#northAmerica {
+  position: absolute;
+  top: 15%;
+  bottom: 65px;
+  width: 600px;
+  height: 678px;
+  right: 30%;
+}
+.button {
+  background-color: silver;
+  border: none;
+  color: white;
+  padding: 9px 19px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  /* font-weight: bold; */
+  font-size: 110%;
+  font-size: 17px;
+  margin: 650px 250px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  letter-spacing: 0.1em;
+}
+
+.button:hover {
+  background-color: lightgrey;
+  color: white;
+}
+
+#title{
+  padding-left: 650px;
+}
+/* form, p, span {
+    margin:0;
+    padding:0; }
+
+input { font:12px arial; }
+
+a {
+    color:#0000FF;
+    text-decoration:none; }
+
+    a:hover { text-decoration:underline; }
+
+#wrapper, #loginform {
+    margin:0 auto;
+    padding-bottom:25px;
+    background:#EBF4FB;
+    width:504px;
+    border:1px solid #ACD8F0; }
+
+#loginform { padding-top:18px; }
+
+    #loginform p { margin: 5px; }
+
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:430px;
+    border:1px solid #ACD8F0;
+    overflow:auto; }
+
+#usermsg {
+    width:395px;
+    border:1px solid #ACD8F0; }
+
+#submit { width: 60px; }
+
+.error { color: #ff0000; }
+
+#menu { padding:12.5px 25px 12.5px 25px; }
+
+.welcome { float:left; }
+
+.logout { float:right; }
+
+.msgln { margin:0 0 2px 0; } */

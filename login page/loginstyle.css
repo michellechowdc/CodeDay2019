@@ -1,0 +1,68 @@
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: lightblue;
+  box-sizing: border-box;
+  position: absolute;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: auto;
+  margin-top: 8%;
+}
+
+.container {
+  padding: 20px 30px;
+  background-color: white;
+  height: 99%;
+}
+
+input[type=text], input[type=password] {
+  width: 96%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.loginbtn {
+  background-color: palevioletred;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  width: 100%;
+  opacity: 0.9;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+}
+
+.loginbtn:hover {
+  background-color: lightpink;
+  color: dimgrey;
+}
+
+a {
+  color: royalblue;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.containerpswd {
+  margin: 30px 320px 0;
+}

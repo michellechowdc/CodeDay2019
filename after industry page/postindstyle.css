@@ -1,0 +1,180 @@
+body {
+  background-color: lightblue;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  letter-spacing: 0.1em;
+}
+
+/* left side*/
+body1 {
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-top: 50%;
+}
+
+.profile {
+  height: 85%;
+  width: 40%;
+  position: fixed;
+  overflow-x: hidden;
+  margin-top: 4%;
+  margin-left: 6%;
+  margin-right: 65%;
+  margin-bottom: 20%;
+}
+
+.left {
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 silver, 0 6px 20px 0 silver;
+}
+
+img, body1 {
+  margin-top: 12%;
+}
+
+h2, body1 {
+  text-align: center;
+  margin-top: 5%
+}
+
+p, body1 {
+  text-align: center;
+}
+
+/* right side contact*/
+body2 {
+  letter-spacing: 0.1em;
+  margin-left: 65%;
+  letter-spacing: 0.1em;
+}
+
+h3, body2 {
+  text-align: center;
+  margin-left: 8%;
+  margin-top: 3%;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 18px;
+  margin-left: 47%;
+  margin-top: 0%;
+  overflow: hidden;
+  letter-spacing: 0.1em;
+  margin-bottom: 0px;
+}
+
+li {
+  float: left;
+  display: inline;
+  display: block;
+  padding-right: 30px;
+  margin-bottom: 0;
+}
+
+/* page break */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 15px;
+  margin-left: 50%;
+  margin-right: 5%;
+  margin-top: 0;
+}
+
+/* right side other */
+body3 {
+  margin-left: 50%;
+}
+
+input[type=email] {
+  width: 27%;
+  padding: 8px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  margin-bottom: 6px;
+  position: absolute;
+  bottom:459px;
+}
+
+input[type=text] {
+  margin-left: 50%;
+  width: 40%;
+  padding: 30px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  margin-top: 15px;
+  margin-bottom: 0;''
+}
+
+input[type=submit] {
+  width: 15%;
+  padding: 8px;
+  padding-right: 10px;
+  position: absolute;
+  bottom: 365px;
+  left: 53px;
+    margin-bottom: 100px;
+  display: inline-block;
+  border: none;
+  margin-left: 75%;
+  margin-right: 10%;
+  margin-top: 0;
+}
+
+/* events right side */
+.events right {
+  position: absolute;
+  margin-left: 40%;
+  left: 550px;
+}
+
+.eventslist {
+  background-color: white;
+  width: 43%;
+  height: 30%;
+  margin-left: 50%;
+  padding: 10px;
+  /* overflow: auto; */
+}
+
+/* .BBGimg {
+  /* margin-left: 50%; */
+  /* height: 20px; */
+  /* width: ;
+  margin-top: 0;
+} */
+
+.titles {
+  margin-left: 4%;
+}
+
+.blurb {
+  background-color: pink;
+  margin-left: 4%
+  height: auto;
+  margin-top: 0;
+  width: 50%;
+  padding: 5px 5px;
+  padding-top: 3px;
+}
+
+.details {
+  position: absolute;
+  top: 450px;
+  margin-left: 75%;
+  margin-top: 10px;
+  margin-bottom: 50%;
+}
+
+
+/* .eventslist2 {
+  background-color: white;
+  width: 20%;
+  height: 30%;
+  margin-left: 72%;
+  padding: 10px;
+  /* overflow: auto; */
